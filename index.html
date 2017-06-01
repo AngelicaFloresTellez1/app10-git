@@ -1,0 +1,806 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Decima aplicación</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+
+ <link rel="stylesheet" href="css/tema-app10.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  
+  
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/definicion2.jpg','imagenes/batalla4demayo2.jpg','imagenes/img4.jpg','imagenes/img6.png','imagenes/img5.jpg','imagenes/img12.jpg','imagenes/escuela.png','imagenes/logistica2.jpg','imagenes/mecanicaindustrial2.jpg','imagenes/programacion2.jpg','imagenes/basket.jpg','imagenes/aula2.jpg','imagenes/baños3.jpg','imagenes/campo2.jpg')">
+
+
+   <div data-role="page" id="Principal" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+      <h1 class="estilo1">CBTis.No16</h1>
+     </div>
+<!--WOW SALIDER AQUI IBA-->
+
+     <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>CBTIS No. 16</h1>
+          <div>
+            <br>
+         </div>
+         <div>
+           <p>“Nunca consideres el estudio como una obligación, sino como una oportunidad para penetrar en el bello y maravilloso mundo del saber.” Albert Einstein.</p>
+           <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/escuela.png',1)"><img src="imagenes/escuelafuera.jpg" width="240" height="165" id="Image40"></a></p>
+         </div>
+       </div>
+     </div>
+         <div>
+          <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+          <li class="ui-first-child ui-last-child">
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>¿Qué es DGETI?</h2>
+            </a>
+          </li>
+          
+          <li class="ui-first-child ui-last-child">
+            <a href="#Pagina2"  class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Estudiantes</h2>
+            </a>
+           </li>
+           
+           <li class="ui-first-child ui-last-child">
+              <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Oferta educativa</h2>
+              </a>
+            </li>
+            
+            <li class="ui-first-child ui-last-child">
+              <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Espacios que ofrece</h2>
+       
+              </a>
+            </li>
+             
+            <li class="ui-first-child ui-last-child">
+              <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>Datos de la institución</h2>
+              </a>
+            </li>
+            
+            <li class="ui-first-child ui-last-child">
+              <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Requisitos de admisión</h2>
+              </a>
+            </li>
+            
+            <li class="ui-first-child ui-last-child">
+              <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Plataformas educativas</h2>
+              </a>
+            </li>
+            
+            <li class="ui-first-child ui-last-child">
+              <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Servicios escolares CBTis No.16</h2>
+              </a>
+            </li>
+            
+            <li class="ui-first-child ui-last-child">
+              <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Elaborado por:</h2>
+              </a>
+            </li>
+          </ul>
+     </div>
+              <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+                <div>
+                  <img src="res/android/mdpi.jpg" width="80" height="92">
+                </div>
+                 <div>
+                   <h4>Proyecto final</h4>
+                   <h4>Angelica Flores Tellez</h4>
+                 </div>
+     </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>¿Qué es DGETI?</h1>
+               </div>
+               <div data-role="content" align="center">
+                 <div>
+                   <h2>Dirección General de Educación Tecnológica Industrial (DGETI)</h2>
+                 </div>
+                </div>
+                <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4>Proyecto final</h4>
+                  <h4>Angelica Flores Tellez</h4>
+                </div>
+                 <!--linea agreagada-->
+                 <div>
+                  <p>La Dirección General de Educación Tecnológica Industrial es una dependencia adscrita a la Subsecretaría de Educación Media Superior (SEMS), dependiente de la Secretaría de Educación Pública (SEP) que ofrece el servicio educativo del nivel medio superior tecnológico. El 16 de Abril de 1971 es publicado en el Diario Oficial de la Federación el acuerdo presidencial por el que se modifica la estructura orgánica administrativa de la SEP y se da paso a la creación de la DGETI, en agosto de ese mismo año se publican las funciones que tendrá esta institución y se integran a ella los centros de capacitación para el trabajo industrial, escuelas tecnológicas industriales, los centros de estudios tecnológicos en el Distrito Federal y los centros de estudios tecnológicos foráneos.
+Actualmente la DGETI es la institución de educación media superior tecnológica más grande del país, con una infraestructura física de 456 planteles educativos a nivel nacional, de los cuales 168 son CETIS y 288 CBTIS.
+</p>
+<div data-role="collapsible" data-theme="b" data-content-theme="b">
+                  <h3>DGETI</h3>
+                 <img src="imagenes/dgeti.jpg" width="147" height="175">
+                  <!--linea agreagada-->
+               </div>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/alumnos.jpg" alt="alumnos" title="alumnos" id="wows1_0"/></li>
+		<li><img src="data1/images/bao2.jpg" alt="baño2" title="baño2" id="wows1_1"/></li>
+		<li><img src="data1/images/baos3.jpg" alt="baños3" title="baños3" id="wows1_2"/></li>
+		<li><img src="data1/images/basket.jpg" alt="basket" title="basket" id="wows1_3"/></li>
+		<li><img src="data1/images/campo.jpg" alt="campo" title="campo" id="wows1_4"/></li>
+		<li><img src="data1/images/caseta_de_seguridad.jpg" alt="Caseta de seguridad" title="Caseta de seguridad" id="wows1_5"/></li>
+		<li><img src="data1/images/cuidadoareas.jpg" alt="cuidadoareas" title="cuidadoareas" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/escuelafuera.jpg" alt="jquery carousel" title="escuelafuera" id="wows1_7"/></a></li>
+		<li><img src="data1/images/estacionamientoalumnos.jpg" alt="Estacionamientoalumnos" title="Estacionamientoalumnos" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="alumnos"><span><img src="data1/tooltips/alumnos.jpg" alt="alumnos"/>1</span></a>
+		<a href="#" title="baño2"><span><img src="data1/tooltips/bao2.jpg" alt="baño2"/>2</span></a>
+		<a href="#" title="baños3"><span><img src="data1/tooltips/baos3.jpg" alt="baños3"/>3</span></a>
+		<a href="#" title="basket"><span><img src="data1/tooltips/basket.jpg" alt="basket"/>4</span></a>
+		<a href="#" title="campo"><span><img src="data1/tooltips/campo.jpg" alt="campo"/>5</span></a>
+		<a href="#" title="Caseta de seguridad"><span><img src="data1/tooltips/caseta_de_seguridad.jpg" alt="Caseta de seguridad"/>6</span></a>
+		<a href="#" title="cuidadoareas"><span><img src="data1/tooltips/cuidadoareas.jpg" alt="cuidadoareas"/>7</span></a>
+		<a href="#" title="escuelafuera"><span><img src="data1/tooltips/escuelafuera.jpg" alt="escuelafuera"/>8</span></a>
+		<a href="#" title="Estacionamientoalumnos"><span><img src="data1/tooltips/estacionamientoalumnos.jpg" alt="Estacionamientoalumnos"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+                 </div>
+              
+</div>
+              
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Estudiantes</h1>
+               </div>
+               <div data-role="content" align="center">
+                 <div>
+                   <h2>Estudiantes</h2>
+                 </div>
+                <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4> Proyecto Final,AFT</h4>
+                </div>
+                <!--linea agreagada-->
+                 <div>
+                  <p>Información para los estudiantes del plantel, así como los de nuevo ingreso.</p>
+                 </div>
+              
+                <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                  <h3>Becas</h3>
+              <p>En esta sección se describen los diferentes tipos de becas que otorga la Secretaría de Educación Pública (SEP) a través de la Subsecretaría de Educación Media Superior (SEMS)</p>
+              <p>GOBIERNO FEDERAL
+•	EXCELENCIA PROMEDIO
+•	INGRESO
+•	PERMANENCIA
+•	SALARIO PRÁCTICAS PROFESIONALES
+•	CONTRA EL ABANDONO ESCOLAR 
+GOBIERNO ESTATAL
+•	OPORTUNIDADES
+</p>
+</div>
+
+
+<div data-role="collapsible" data-theme="b" data-content-theme="b">
+                  <h3>Reglamento</h3>
+                 <img src="imagenes/reglas.png" width="300" height="185">
+               </div>
+<!--linea agreagada-->
+
+               
+               <div data-role="main" class="ui-content" align="center">
+     <div style="width: 50%; font-size: 10px;">
+      <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+        <a href="http://www.becasmediasuperior.sep.gob.mx/"  target="_self" data-role="button">
+        <h2>BECAS MEDIO SUPERIOR</h2>
+        </a>
+        </li>
+       
+       <li class="ui-first-child ui-last-child">
+        <a href="http://www.gob.mx/prospera" target="_self" data-role="button">
+        <h2>Prospera</h2>
+        </a>
+        </li>
+        
+      </ul>
+     </div>
+     </div>
+               
+               </div>
+</div>
+              
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Oferta educativa</h1>
+               </div>
+               <div data-role="content" align="center">
+                 <div>
+                   <h2>Oferta Educativa</h2>
+                </div>
+                <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4>Proyecto Final,AFT</h4>
+                </div>
+                
+                 <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                  <h3>LOGÍSTICA</h3>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/logistica2.jpg',1)"><img src="imagenes/logistica.jpg" width="245" height="121" id="Image17"></a></p>
+              <p>TÉCNICO EN LOGISTICA
+Ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a la administración de bienes, planificando los suministros destinados al almacenamiento de manera manual y electrónica, la organización de los nodos logísticos para el transporte de mercancías, así como proveer los servicios y atención al cliente sobre los movimientos y los costos de la cadena logística.
+COMPETENCIAS PROFESIONALES :
+</p>
+        <img src="imagenes/competenciaslogistica.jpg" width="300" height="185">
+        <p>MAPA CURRICULAR</p>
+        <img src="imagenes/mapacurricularlogistica.jpg" width="303" height="169">
+        <p>PERFIL DE EGRESO:
+Durante el proceso de formación de los cinco módulos, el estudiante desarrollara o reforzará las siguientes competencias profesionales:
+o	 Supervisa el proceso de suministrio de bienes.
+o	 Organiza el transporte de mercancías. 
+o	Proveve servicio de atencion al cliente sbre los movimientos de logistica. Organiza los costos de la cadena logística y de las competencias de productividad y empleabilidad:
+o	 Atencion al proceso
+o	Planeación y organización
+o	Ética profesional
+o	Comunicación efectiva
+o	Trabajo en equipo
+o	Atención al cliente
+o	Relaciones interpersonales
+   OPORTUNIDADES DE INSERCIÓN LABORAL
+Nuestro país presenta una amplia diversidad de procesos de producción, desde los que utilizan tecnología moderna, hasta sistemas tradicionales; este hecho contribuye a diversificar las ocupaciones, los Comités interinstitucionales de Formación Profesional decidieron utilizar los siguientes: Sectores industriales, comerciales y de servicios, públicos o privados: Escuelas, constructoras, fábricas, centros comerciales, hospitales, inmobiliarias, hoteles, instituciones de crédito, despachos contables y tiendas de autoservicio. Autoempleo
+</p>
+               </div>
+               
+                <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                  <h3>PROGRAMACIÓN</h3>
+                  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/programacion2.jpg',1)"><img src="imagenes/programacion.jpg" width="256" height="134" id="Image18"></a></p>
+              <p>TÉCNICO EN PROGRAMACIÓN
+Persona con conocimientos, habilidades y actitudes, capaz de ingresar a empresas de desarrollo de software, diseño gráfico, mantenimiento, outsourcing.
+COMPETENCIAS PROFESIONALES
+</p>
+             <img src="imagenes/competenciasprogramacion.jpg" width="244" height="153">
+<p>MAPA CURRICULAR</p>
+<img src="imagenes/mapacurricularprogramacion.jpg" width="284" height="166">
+              <p>PERFIL DE EGRESO
+La formación que ofrece la carrera de Técnico en programación permite al egresado, a través de la articulación de saberes de diversos campos, realizar actividades dirigidas a la:
+o	Instalación y desarrollo de software de aplicación utilizando programación estructurada y orientada a objetos en ambientes web y móviles, con almacenamiento persistente de datos.
+o	 Así como la configuración y administración de plataforma e-learning y Comercio electrónico.
+OPORTUNIDADES DE INSERCIÓN LABORAL.
+•	 Desarrolladores de software
+•	 Analistas de sistemas
+•	Analista de programas de cómputo
+•	 Programador de sistemas de cómputo
+•	 Edición de software y edición de software integrada con la reproducción
+•	 Escuelas de computación del sector privado
+•	 Servicios de diseño de sistemas de cómputo y servicios relacionados
+•	 Escuelas de computación del sector público
+</p>
+               </div>
+               
+                <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                  <h3>ELECTRICIDAD</h3>
+              <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/electricidad.jpg',0)"><img src="imagenes/electricidad2.jpg" width="270" height="122" id="Image28"></a></p>
+              <p>TÉCNICO EN ELECTRICIDAD
+La carrera de Técnico en Electricidad permite al estudiante sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar mantenimiento a máquinas eléctricas.
+COMPETENCIAS PROFESIONALES
+</p>
+<img src="imagenes/competenciaselectrico.JPG" width="296" height="144">
+<p>MAPA CURRICULAR</p>
+<img src="imagenes/mapacurricularelectrico.JPG" width="288" height="204">
+<p>PERFIL DE EGRESO
+Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Electricidad.
+o	 Desarrolla instalaciones eléctricas residenciales y comerciales.
+o	 Mantiene los motores y generadores de CA y CC.
+o	 Mantiene en operación los circuitos de control electromagnético y electrónico.
+o	 Mantiene los sistemas de iluminación y de energía renovable.
+o	 Mantiene instalaciones eléctricas de media y baja tensión.
+OPORTUNIDADES DE INSERCIÓN LABORAL.
+Todas estas competencias posibilitan al egresado su incorporación al mundo laboral o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales o las necesidades en su entorno social.
+</p>
+               </div>
+               
+               
+                <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                  <h3>MECÁNICA INDUSTRIAL</h3>
+              <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/mecanicaindustrial2.jpg',1)"><img src="imagenes/mecanicaindustrial.jpg" width="278" height="132" id="Image29"></a></p>
+             
+              <p>TÉCNICO EN MECÁNICA INDUSTRIAL
+Profesionista que da mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas.
+</p>
+
+<p>MAPA CURRICULAR</p>
+<img src="imagenes/mapacurricularmecanica.jpg" width="275" height="206">
+<p>PERFIL DE EGRESO
+Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Mecánica Industrial:
+o	 Suelda y ajusta piezas mecánicas.
+o	 Maquina piezas mecánicas en talador y torno.
+o	 Maquina piezas mecánicas en fresadora, rectificadora y cepillo.
+o	 Maquina piezas mecánicas por CNC.
+o	 Mantiene sistemas de transmisión de potencia.
+OPORTUNIDADES DE INSERCIÓN LABORAL.
+Industrias de transformación y procesos como: Textiles, del plástico, petroleras, metalmecánica, automotriz, pesqueras, mineras, siderúrgicas, agrícolas, alimenticia, química, de muebles, forestal, papelera, gráfica y en general todo tipo de industria de la producción y manufacturera que utilice maquinaria entre otras.
+</p>
+               </div>
+               
+               <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                 <h3>Centros de Atención para Personas con Discapacidad (CAED)</h3>
+              <img src="imagenes/salonespecial.jpg" width="331" height="212">
+              <p>DURACIÓN:
+
+No se establecen tiempos para concluir los estudios.</p>
+<p>¿A QUIÉN VA DIRIGIDO?:
+
+A las personas con discapacidad con deseos de iniciar, continuar o concluir sus estudios de bachillerato.</p>
+<p>VENTAJAS QUE OFRECE ESTA MODALIDAD:
+
+La inscripción es gratuita y sin examen de admisión
+Se puede combinar el estudio con otras actividades
+Se puede estudiar a cualquier edad
+Se brinda asesoría académica gratuita y especializada
+Se cuenta con equipo y material didáctico adaptados a las necesidades de los estudiantes
+Se otorgan becas educativas
+El certificado de estudios tiene validez oficial en todo el país</p>
+<p>MODALIDAD:
+
+No Escolarizada.
+
+Los CAED están basados en el acuerdo 445 de la SEP, que contempla la certificación del bachillerato por evaluaciones parciales.
+</p>
+<p>PLAN DE ESTUDIOS:
+
+El plan de estudios de los CAED consta de 22 módulos, que permiten a los estudiantes participar en la definición de su proceso formativo y otras actividades laborales o personales.
+
+AL CONCLUIR TUS ESTUDIOS OBTENDRÁS
+
+Un certificado de estudios de Bachillerato General con validez oficial en todo el país.
+
+PERIODO DE REGISTRO O INSCRIPCIONES
+
+No hay periodo específico de registro y las inscripciones se realizan todo el año.
+
+REQUISITOS:
+
+Certificado de secundaria
+Certificado de discapacidad emitido por una institución pública (IMSS, ISSSTE, DIF, etc.)
+2 fotografías tamaño infantil
+Identificación oficial (INE, pasaporte o acta de nacimiento)
+Acta de nacimiento.
+CURP
+APOYO DE MATERIALES DIDÁCTICOS:
+
+En esta modalidad los estudiantes disponen de diversos recursos didácticos como: audiolibros, glosarios en Lenguaje de Señas Mexicano, textos en Braille, recursos multimedia, software especializado, regletas, punzones, materiales termo formados para alto y bajo relieve, etc.</p>
+               </div>
+               
+               
+               
+                <div data-role="main" class="ui-content" align="center">
+     <div style="width: 50%; font-size: 10px; color: #FFF;">
+      <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+        <a href="http://www.cbtis016.edu.mx/"  target="_self" data-role="button">
+        <h2>Página del plantel</h2>
+        </a>
+        </li>
+       
+       <li class="ui-first-child ui-last-child">
+        <a href="https://es-la.facebook.com/cbtis16atlixco/" target="_self" data-role="button">
+        <h2>Facebook</h2>
+        </a>
+        </li>
+        
+      </ul>
+     </div>
+     </div>
+               
+                
+               </div>
+              </div>
+                  
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Espacios que ofrece</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+           <h2>Espacios que ofrece el plantel a los alumnos</h2>    
+         </div>
+      </div>
+         <div data-role="footer" data-theme="b" data-position="fixed">
+            <h4>Proyecto Final,AFT</h4>
+      </div>
+      <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>Aulas limpias</h3>
+                   <p>La institución se preocupa por brindar a los alumnos una buena educación y unas aulas en las que puedan desarrolar sus conocimientos, limpias y con los materiales necesarios para su desarrollo.</p>
+                   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image47','','imagenes/aula2.jpg',1)"><img src="imagenes/aula1.jpg" width="253" height="148" id="Image47"></a></p>
+</div>
+                   
+                   <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>Baños y estacionamiento</h3>
+                   <p>La institución además, se preocupa por brindar a los alumnos baños limpios. En todo el plantel hay 3. Para que los alumnos que se encuentran retirados no tengan que trasladarse. Además de que hay un espacio para que los alumnos puedan estacionar sus motos, bicicletas o autos.</p>
+                   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image48','','imagenes/baños3.jpg',1)"><img src="imagenes/baño1.jpg" width="269" height="331" id="Image48">    </a><img src="imagenes/baño2.jpg" width="265" height="331"> <img src="imagenes/Estacionamientoalumnos.png" width="300" height="185"></p>
+                   </div>
+                   
+                   
+                   <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>Canchas de Futbol y Basketball</h3>
+                   <p>La institución cuenta con 3 canchas y un campo deportivo para todos aquellos alumnos que estén dentro de las actividades deportivas de la institución.</p>
+                   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/campo2.jpg',1)"><img src="imagenes/campo.jpg" width="383" height="155" id="Image50"></a></p>
+                   <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagenes','','imagenes/campo2.jpg',0)"><img src="imagenes/cancha.jpg" width="384" height="195" id="imagenes"></a></p>
+                   </div>
+                   
+                   <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>Laboratorios</h3>
+                   <p>Cuenta con muchos laboratorios para cada especialidad y para materias como son: física, química, inglés, etc.
+                   Cada uno con su material necesario y con personas que se encargan de llevar el control tanto del material como las horas de entrada y de salida de cada grupo y el profesor asigando al aula.</p>
+                   <img src="imagenes/programacion2.jpg" width="301" height="186">
+             </div>
+             
+             <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>Sala Audiovisual</h3>
+                   <p>Esta sala cuenta con sillas y mesas para la presentación y uso de los alumnos y maestros.</p>
+                   <img src="imagenes/audiovisual.jpg" width="213" height="254">
+             </div>
+                   
+    </div>
+  </div>
+           
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+            <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+              <h1>Datos de la institución</h1>
+             </div>
+             <div data-role="content" align="center">
+              <div>
+               <h2>Información de la institución</h2></div>
+             </div>
+             <div data-role="footer" data-theme="b" data-position="fixed">
+               <h4>Proyecto Final,AFT</h4>
+             </div>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/foto29.jpg" alt="foto29" title="foto29" id="wows3_0"/></li>
+		<li><img src="data3/images/foto30.jpg" alt="foto30" title="foto30" id="wows3_1"/></li>
+		<li><img src="data3/images/foto31.jpg" alt="foto31" title="foto31" id="wows3_2"/></li>
+		<li><img src="data3/images/foto32.jpg" alt="foto32" title="foto32" id="wows3_3"/></li>
+		<li><img src="data3/images/foto33.jpg" alt="foto33" title="foto33" id="wows3_4"/></li>
+		<li><img src="data3/images/foto34.jpg" alt="foto34" title="foto34" id="wows3_5"/></li>
+		<li><img src="data3/images/foto35.jpg" alt="foto35" title="foto35" id="wows3_6"/></li>
+		<li><img src="data3/images/foto36.jpg" alt="foto36" title="foto36" id="wows3_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data3/images/foto37.jpg" alt="bootstrap carousel" title="foto37" id="wows3_8"/></a></li>
+		<li><img src="data3/images/foto38.jpg" alt="foto38" title="foto38" id="wows3_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="foto29"><span><img src="data3/tooltips/foto29.jpg" alt="foto29"/>1</span></a>
+		<a href="#" title="foto30"><span><img src="data3/tooltips/foto30.jpg" alt="foto30"/>2</span></a>
+		<a href="#" title="foto31"><span><img src="data3/tooltips/foto31.jpg" alt="foto31"/>3</span></a>
+		<a href="#" title="foto32"><span><img src="data3/tooltips/foto32.jpg" alt="foto32"/>4</span></a>
+		<a href="#" title="foto33"><span><img src="data3/tooltips/foto33.jpg" alt="foto33"/>5</span></a>
+		<a href="#" title="foto34"><span><img src="data3/tooltips/foto34.jpg" alt="foto34"/>6</span></a>
+		<a href="#" title="foto35"><span><img src="data3/tooltips/foto35.jpg" alt="foto35"/>7</span></a>
+		<a href="#" title="foto36"><span><img src="data3/tooltips/foto36.jpg" alt="foto36"/>8</span></a>
+		<a href="#" title="foto37"><span><img src="data3/tooltips/foto37.jpg" alt="foto37"/>9</span></a>
+		<a href="#" title="foto38"><span><img src="data3/tooltips/foto38.jpg" alt="foto38"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+               <div>
+               <p>MISIÓN
+Formar personas con conocimientos tecnológicos en las áreas industrial, comercial y de servicios, a través de la preparación de profesionales técnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país.</p>
+ 
+<p>VISIÓN
+Ser una institución que proporcione una formación integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial y el entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestro plantel.</p>
+</p>
+ <div data-role="collapsible" data-theme="b" data-content-theme="b">
+<h4>Historia del plantel</h4>
+<p>BREVE RESEÑA HISTORICA DEL C.B.T.i.s. No. 16
+El presente trabajo, tiene como finalidad conocer aspectos sobre la evolución del C.B.T.i.s. No. 16 para lo cual se muestran algunas de sus raíces históricas. El día 08 de Agosto, el comité que representa la Federación de obreros y Campesinos de la región de Atlixco Pué; hizo entrega al Ingeniero Estrada Cuesta en representación del C.A.P.E.C.E., un terreno de 5966.38 metros cuadrados de superficie para la construcción de la Escuela Técnica Industrial No.46 de esta ciudad, procediendo a su edificación. El día 25 de febrero de 1962, en una de las oficinas que forman la H. Cámara de Trabajo C.R.O.M. de Atlixco, empezó a laborar la Dirección de la E.T.I. No. 46., fungiendo como primer Director el C. Ing. Francisco Linares Jiménez, auxiliado por el C. Tec. Oscar Rodríguez Grijalva y el personal administrativo formado por las C. C. Eva Judith Rosas Bonillas, Ma. Cristina Fernández Sosa, Carolina Rosas Zarate y el C. Juan Apatenco Fernández. A los quince días después se hizo el traslado al edificio que ocupa dicha escuela, la cual constaba de 5 salones de clase, 5 talleres y 2 salones de dibujo. El día 1 de Abril de 1962, se iniciaron las labores con tres grupos de secundaria con las especialidades de ajuste de banco y maquinas, herramientas, maquinas de combustión interna, modas, radio y T.V., ELECTRONICA, ELECTRICIDAD Y EQUIPO AGRICOLA, además hubo tres grupos de Preparatoria Técnica Elemental en las especialidad de; maquinas de combustión interna, electricidad, ajuste de banco, equipo agrícola , haciendo un total de 169 alumnos que, en su mayoría eran campesinos y trabajadores de las diferentes fabricas de la región. Los maestros fundadores fueron:
+•	Prof. Carlos Castillo Rodríguez
+•	Profa. María de la Luz Munive Dávila
+•	Lic. David Marroquín
+•	Profa. Esperanza Villegas Cortez
+•	Dr. Salvador Esperón Unzueta
+•	Prof. Pablo Barrera
+•	Prof. Luis Martínez Matamoros
+•	Prof. Marco Antonio Morales Arador
+•	Prof. Sirvió Tulio Guillen Burguete
+•	Prof. Fernando Domínguez Almeida
+•	Prof. Lorenzo Morales
+</p>
+<img src="imagenes/escuelafuera.png" width="300" height="185"> <img src="imagenes/cuidadoareas.png" width="300" height="185">
+</div>
+
+
+<div data-role="collapsible" data-theme="b" data-content-theme="b">
+                  <h3>Ubicación del plantel y teléfonos</h3>
+<p>Domicilio Conocido Col. Ricardo Flores Magon. 
+Atlixco, Puebla. CP 74240 Teléfonos: 244-4452543, 244-4462940. </p>
+                 <img src="imagenes/UBICACION.png" width="300" height="185">
+               </div>
+
+
+
+               </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Requisitos de Admisión</h1>
+               </div>
+               <div data-role="content" align="center">
+                 <div>
+                   <h2>Requisitos alumnos de nuevo ingreso</h2>
+                </div>
+                <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4>Proyecto Final,AFT</h4>
+                </div>
+                <!--linea colapsable-->
+                <div>
+                <img src="imagenes/ficha.jpg">
+             </div>
+               </div>
+              </div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Plataformas educativas</h1>
+               </div>
+               <div data-role="content" align="center">
+                 <div>
+                   <h2>Plataformas educativas</h2>
+                </div>
+                <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4>Proyecto Final,AFT</h4>
+                </div>
+                
+                
+                <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>Edmodo</h3>
+                   <p>Edmodo  es una plataforma tecnológica, social, educativa y gratuita, que permite la comunicación entre los alumnos y los profesores en un entorno cerrado y privado a modo de microblogging, creado para un uso específico en educación. Proporciona al docente un espacio virtual privado en el que se pueden compartir mensajes, archivos, enlaces, calendario de aula, así como proponer tareas actividades y gestionarlas. Fue fundada en Chicago, Illinois, cuando dos empleados del distrito escolar se dispusieron a cerrar la brecha entre cómo los estudiantes viven sus vidas y cómo aprenden en la escuela, Edmodo fue creado para llevar la educación al ambiente del siglo 21, en el 2008 por Jesus Revelles, Yamilka Cedeño y Jorge Pavón.</p>
+                   <img src="imagenes/edmodo.jpe" width="132" height="132">
+                   
+                    
+                  <div data-role="main" class="ui-content" align="center">
+     <div style="width: 50%; font-size: 10px;">
+      <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+        <a href="https://www.edmodo.com/?language=es" target="_self" data-role="button">
+        <h2>Edmodo</h2>
+        </a>
+        </li>
+      </ul>
+     </div>
+     </div>  
+                   
+                   
+                   </div>
+                   
+                   <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>Duolingo</h3>
+                   <p>Duolingo es una plataforma online que te permitirá aprender inglés, francés o portugués (entre otros idiomas) de forma gratuita y entretenida. Duolingo es un sitio web destinado al aprendizaje gratuito de idiomas a la vez que una plataforma crowdsourcing de traducción de textos. El servicio está diseñado de tal forma que a medida que el usuario avanza en su aprendizaje ayuda a traducir páginas web y otros documentos.</p>
+                   <img src="imagenes/duolingo.png" width="164" height="155">
+                   
+                  <div data-role="main" class="ui-content" align="center">
+     <div style="width: 50%; font-size: 10px;">
+      <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+        <a href="https://es.duolingo.com/" target="_self" data-role="button">
+        <h2>Duolingo</h2>
+        </a>
+        </li>
+      </ul>
+     </div>
+     </div>  
+                   
+                   
+             </div>
+                
+                <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>Khan Academy</h3>
+                   <p>Khan Academy (en español Academia Khan) es una organización educativa sin ánimo de lucro  y un sitio web creado en 2006 por el educador estadounidense Salman Khan, egresado del Instituto Tecnológico de Massachusetts y de la Universidad de Harvard.
+Con la misión de "proporcionar una educación de nivel mundial para cualquier persona, en cualquier lugar", es una organización de aprendizaje electrónico en línea gratuita con más de 4.300 vídeos  dirigidos a escolares de enseñanza primaria y secundaria sobre matemáticas, biología, química, física,computación e incluso de humanidades como economía, finanzas e historia.
+</p>
+<img src="imagenes/khan1.png" width="152" height="181">
+
+ <div data-role="main" class="ui-content" align="center">
+     <div style="width: 50%; font-size: 10px;">
+      <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+        <a href="https://es.khanacademy.org/"  target="_self" data-role="button">
+        <h2>Khan Academy</h2>
+        </a>
+        </li>
+      </ul>
+     </div>
+     </div>
+
+                   </div>
+                   
+                   <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                   <h3>DAMCBTIS16.MILAULAS.COM</h3>
+                   <p>Con esta plataforma complementas las habilidades, destrezas y conocimientos para el submodulo de Desarrolla Aplicaciones Móviles para los estudiantes del cuarto semestre de Programación. 
+El uso de esta plataforma representa una nueva experiencia de aprendizaje que te permite articular conceptos, procedimientos y actitudes que favorecen el desarrollo de tus capacidades así como mejorar tu calificación si la empleas de forma adecuada y constante.
+</p>
+<img src="imagenes/dam.png" width="225" height="137">
+<div data-role="main" class="ui-content" align="center">
+     <div style="width: 50%; font-size: 10px;">
+      <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+        <a href="https://damcbtis16.milaulas.com/"  target="_self" data-role="button">
+        <h2>Página</h2>
+        </a>
+        </li>
+      </ul>
+     </div>
+     </div>
+                   
+                   </div>
+
+               </div>
+              </div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Servicios escolares CBTis No.16</h1>
+               </div>
+               <div data-role="content" align="center">
+                 <div>
+                   <h2>Servicios escolares</h2>
+                </div>
+                <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4>Proyecto Final,AFT</h4>
+                </div>
+                <!--linea colapsable-->
+                <div>
+                
+              <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/escuelafuera.jpg" alt="escuelafuera" title="escuelafuera" id="wows2_0"/></li>
+		<li><img src="data2/images/foto2.jpg" alt="foto2" title="foto2" id="wows2_1"/></li>
+		<li><img src="data2/images/foto3.jpg" alt="foto3" title="foto3" id="wows2_2"/></li>
+		<li><img src="data2/images/foto4.jpg" alt="foto4" title="foto4" id="wows2_3"/></li>
+		<li><img src="data2/images/foto10.jpg" alt="foto10" title="foto10" id="wows2_4"/></li>
+		<li><img src="data2/images/foto11.jpg" alt="foto11" title="foto11" id="wows2_5"/></li>
+		<li><img src="data2/images/foto12.jpg" alt="foto12" title="foto12" id="wows2_6"/></li>
+		<li><img src="data2/images/foto13.jpg" alt="foto13" title="foto13" id="wows2_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/foto14.jpg" alt="responsive slider" title="foto14" id="wows2_8"/></a></li>
+		<li><img src="data2/images/foto15.jpg" alt="foto15" title="foto15" id="wows2_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="escuelafuera"><span><img src="data2/tooltips/escuelafuera.jpg" alt="escuelafuera"/>1</span></a>
+		<a href="#" title="foto2"><span><img src="data2/tooltips/foto2.jpg" alt="foto2"/>2</span></a>
+		<a href="#" title="foto3"><span><img src="data2/tooltips/foto3.jpg" alt="foto3"/>3</span></a>
+		<a href="#" title="foto4"><span><img src="data2/tooltips/foto4.jpg" alt="foto4"/>4</span></a>
+		<a href="#" title="foto10"><span><img src="data2/tooltips/foto10.jpg" alt="foto10"/>5</span></a>
+		<a href="#" title="foto11"><span><img src="data2/tooltips/foto11.jpg" alt="foto11"/>6</span></a>
+		<a href="#" title="foto12"><span><img src="data2/tooltips/foto12.jpg" alt="foto12"/>7</span></a>
+		<a href="#" title="foto13"><span><img src="data2/tooltips/foto13.jpg" alt="foto13"/>8</span></a>
+		<a href="#" title="foto14"><span><img src="data2/tooltips/foto14.jpg" alt="foto14"/>9</span></a>
+		<a href="#" title="foto15"><span><img src="data2/tooltips/foto15.jpg" alt="foto15"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                
+                <p>La institución cuenta con oficinas para dar un grato atendimiento a los padres de familia, alumnos y docentes. Si deseas obtener más información del plantel puedes acudir al edificio de servicios escolares de la institución.</p>
+                <img src="imagenes/serviciosescolares.jpg" width="313" height="181">
+                <p>Programas de estudio del Bachillerato Tecnológico Formación Básica y Propedéutica</p>
+                
+                <div data-role="main" class="ui-content" align="center">
+     <div style="width: 50%; font-size: 10px;">
+      <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+       <li class="ui-first-child ui-last-child">
+        <a href="http://cosdac.sems.gob.mx/portal/index.php/estudiar-trabajar/programas-de-estudios-vigentes"  target="_self" data-role="button">
+        <h2>Más información</h2>
+        </a>
+        </li>
+       
+       <li class="ui-first-child ui-last-child">
+        <a href="http://www.cbtis016.edu.mx/index.php/servicios-escolares/becas" target="_self" data-role="button">
+        <h2>Información becas</h2>
+        </a>
+        </li>
+        
+      </ul>
+     </div>
+     </div>
+                
+                
+                </div>
+               </div>
+              </div>
+              
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Elaborado por:</h1>
+               </div>
+               <div data-role="content" align="center">
+                 <div>
+                   <h2>Datos del estudiante</h2>
+                </div>
+                <div data-role="footer" data-theme="b" data-position="fixed">
+                  <h4>Proyecto Final,AFT</h4>
+                </div>
+                <!--linea colapsable-->
+                <div>
+                <p>Nombre alumna: Angelica Flores Tellez</p>
+                  <p>Especialidad:"Programación" </p>
+                  <p>Semestre: 4to. </p>
+                  <p>grupo:"F"</p>
+                  <p>No.lista: 09 </p>
+                  <p>Periodo Escolar: Febrero-Julio 2017 </p>
+                  <img src="imagenes/programador.jpg" width="209" height="215">
+                </div>
+               </div>
+              </div>
+
+</body>
+</html>
+ </div>
+               </div>
+              </div>
+
+</body>
+</html>
