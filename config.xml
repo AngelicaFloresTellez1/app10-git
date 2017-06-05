@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <widget xmlns ="http://www.w3.org/ns/widgets"
   xmlns:gap ="http://phonegap.com/ns/1.0"
-  id ="com.phonegap.example12"
+  id ="com.phonegap.example11"
   version ="1.0.0">
   
-  <name> app10  Proyecto Final</name>
+  <name> app10 PROYECTO FINAL</name>
   
   <description>
-   Aplicacion que muestra información sobre la institución CBTIS NO.16
   </description>
   
   <author href="https://build.phonegap.com" email="angela12.aft@gmail.com">
